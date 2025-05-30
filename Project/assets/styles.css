@@ -1,0 +1,144 @@
+
+body {
+    margin: 0 auto;
+    max-width: 1366px;
+    background-color: #8080801a;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding:8px 10px;
+}
+div.header {
+    margin: 0 auto;
+    background: linear-gradient(to right, gray, orange, yellow);
+}
+.footer {
+    background: linear-gradient(to left, orange, yellow, gray);
+}
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap:35px 14px;
+}
+div.column {
+    float: left;
+    background-color: #fff;
+    padding: 0px 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+div.footer {
+    background-color: #ddd;
+}
+img {
+    width: 100%;
+}
+h3 {
+    color: #555;
+}
+@media screen and (max-width: 430px) {
+    div.header h1 {
+        padding: 30px 10px;
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    div.footer h2 {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 430px) {
+    div.header h1 {
+        padding: 30px 10px;
+        font-size: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    div.footer h2 {
+        font-size: 18px;
+        padding: 15px 10px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 576px) {
+    div.header h1 {
+        padding: 40px 10px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 1em;
+    }
+    div.footer h2 {
+        font-size: 28px;
+        padding: 20px 10px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    div.column {
+        width: 44%;
+    }
+    div.row {
+        margin-bottom: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media screen and (min-width: 820px) {
+    div.header h1 {
+        padding: 40px 10px;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 1em;
+    }
+    div.footer h2 {
+        font-size: 28px;
+        padding: 20px 10px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    div.column {
+        width: 28%;
+    }
+    div.row {
+        margin-bottom: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div.header h1 {
+        padding: 50px 30px;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    p {
+        font-size: 1em;
+    }
+    div.footer h2 {
+        font-size: 28px;
+        padding: 40px 10px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    div.column {
+        width: 21.5%;
+    }
+    div.row {
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
